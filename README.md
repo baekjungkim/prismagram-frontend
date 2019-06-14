@@ -8,4 +8,6 @@ yarn add graphql
 yarn add react-apollo-hooks
 yarn add apollo-boost
 yarn add react-helmet
+yarn add styled-reset
+yarn add react-toastify
 ```
