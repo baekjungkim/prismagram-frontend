@@ -53,8 +53,7 @@ export default ({
   lastName,
   email,
   setAction,
-  onSubmit,
-  createAccount
+  onSubmit
 }) => (
   <Wrapper>
     <Form>
@@ -64,7 +63,7 @@ export default ({
           <Button text={"Log in"} />
         </form>
       ) : (
-        <form onSubmit={createAccount}>
+        <form onSubmit={onSubmit}>
           <Input placeholder={"First name"} {...firstName} />
           <Input placeholder={"Last name"} {...lastName} />
           <Input placeholder={"Email"} {...email} type="email" />
